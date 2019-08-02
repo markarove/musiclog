@@ -1,0 +1,267 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    /*background-image: url(../img/bgmusic.jpg);
+    background-size:100%;*/
+}
+
+#header{
+    border:1px solid black;
+    width:100%;
+    height: 7vh;
+    background-color: black;
+    color:white;
+    position: fixed;
+    clear:both;
+}
+
+
+.indexAction{
+    width:125px;
+    height:auto;
+    float:right;
+    margin-top:15px;
+    margin-right:20px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: black
+}
+
+.button2{
+    width:100px;
+    height:30px;
+    color:white;
+    cursor: pointer;
+    border:none;
+    background-color: black;
+    font-size:15px;
+}
+
+.button2:hover{
+    background-color: orange;
+    color:black;
+}
+
+
+
+#logo{
+    float:left;
+    text-align: center;
+    width:125px;
+    height:50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#logo a{
+    font-family: 'Great Vibes';
+    text-decoration: none;
+    color: darkorange;
+}
+
+#navBar{
+    width:12%;
+    height:85vh;
+    margin-top:7vh;
+    float:left;
+}
+
+#buttons{
+    width:100%;
+    height:20vh;
+    background-color: black;
+    float:left;
+}
+
+.button1{
+    width:100%;
+    height:10vh;
+    /*border-bottom:2px solid blueviolet;*/
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: black;
+    color:white;
+}
+
+.button1:hover{
+    width:100%;
+    height:10vh;
+    /*border-bottom:2px solid blueviolet;*/
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: orange;
+    color:black;
+}
+
+span.but1{
+    font-size:20px;
+}
+
+#menuContent{
+    margin-top:5px;
+}
+
+#menuContent a{
+    color:white;
+    text-decoration: none;
+}
+
+#menuContent a:hover{
+    color:white;
+    text-decoration: none;
+    border-bottom:1px solid white;
+}
+
+#addPlaylistBox{
+    width:100%;
+    height:10vh;
+    /*background-color: aquamarine;*/
+    background-color: darkcyan;
+    clear: both;
+    text-align: center;
+}
+
+#addPlaylistBox input[type="text"]{
+    margin-top: 5%;
+    padding:5px 30px;
+}
+
+#addPlaylistBox input[type="submit"]{
+    margin-top: 5px;
+    width:150px;
+    height: 25px;
+    text-decoration: none;
+    border:none;
+    background-color: black;
+    color:orange;
+    font-size: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#playlists_navBar{
+    width:100%;
+    height:62vh;
+    background-color: black;
+    border-top: 1px solid #303030;
+    float:left;
+    overflow: auto;
+    text-align: center;
+    padding-top:1vh;
+    color:white;
+}
+
+#playlists_navBar span{
+    color:#484848;
+    font-size: 20px;
+}
+
+#content{
+    width:88%;
+    min-width: 1408px;
+    height:80vh;
+    margin-top:7vh;
+    float:right;
+    overflow: none;
+}
+
+#addMusic{
+    width:100%;
+    height:25vh;
+    background-color: darkcyan;
+    clear:both;
+    text-align: center;
+    padding-top:5vh;
+}
+
+#addMusic input[type="text"]{
+    margin-bottom: 2px;
+    padding:5px 30px;
+}
+
+#addMusic input[type="submit"]{
+    margin-top: 5px;
+    width:150px;
+    height: 25px;
+    text-decoration: none;
+    border:none;
+    background-color: black;
+    color:orange;
+    font-size: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#addMusic input[type="file"]{
+    margin-left: 7%;
+    margin-bottom: 2px;
+}
+
+
+#actionAddMusic{
+    width:20%;
+    height:25vh;
+    float:left;
+    margin-left:40%;
+}
+
+#actionAddMusic span{
+    font-size:20px;
+}
+
+#uploadClose{
+    float:left;
+    width:4%;
+    height:10px;
+    cursor: pointer;
+}
+
+#uploadClose span{
+    cursor: pointer;
+    color:black;
+    border-bottom: 1px solid black;
+}
+
+#mainScreen{
+    width:100%;
+    height:83vh;
+    padding-top:3vh;
+    background-color:#303030;
+    /*background-image: url(../img/bg3.jpg);
+    background-size:100%;*/
+    color:white;
+}
+
+#showMusic{
+    width:90%;
+    height:83vh;
+    margin-top:3vh;
+    text-align: center;
+}
+
+#showMusic span{
+    font-size: 20px;
+    margin-top:15px;
+}
+
+#player{
+    width:100%;
+    height:10vh;
+    bottom:0;
+    background-color: black;
+    position:fixed;
+    vertical-align: middle;
+}
+
+99
